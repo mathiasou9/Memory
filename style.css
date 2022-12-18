@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 150px;
+}
+
+.nuit {
+    margin-left: 47%;
+    white-space: nowrap;
+    
+
+}
+#clikeur{
+    display: flex;
+}
+
+.grey {
+
+    color : gray;
+}
+
+.brille {
+    animation-duration: 3s;
+    animation-name: brillant;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes brillant {
+    0%{
+        color : yellow;
+    }
+    50%{
+        color:orange; 
+
+    }
+    100%{
+        color : yellow;
+
+}
+}
+    
+
+
+#bouton {
+
+    font-size: 50px;
+    padding: 10px;
+    margin-left: 50%;
+    
+    
+}
+Button {
+    font-size: 100px;
+    
+}
+Button :hover 
+{
+
+background-color: yellow;
+}
+
+
+#memory {
+
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 38%;
+    gap:20px;
+    
+    
+    
+}
+
+#ligne1{
+    display: flex;
+    gap:20px;
+    
+
+
+}
+#ligne2{
+    display: flex;
+    gap:20px;
+    
+
+
+}
+#ligne3{
+    display: flex;
+    gap:20px;
+    
+
+
+}
